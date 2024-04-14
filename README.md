@@ -4,8 +4,8 @@
  Dapper is a simple object mapper, or a micro-ORM, for .NET that extends the IDbConnection interface. It provides a set of extension methods for querying and executing commands against a database in a performant manner. Unlike some ORMs, Dapper doesn't attempt to translate your .NET queries into SQL. Instead, you write SQL statements directly, just as you would with SQL Server. This direct approach not only boosts performance but also ensures SQL injection safety when used with parameterized queries – a best practice that Dapper encourages.
  
  - Dapper supports synchronous and asynchronous method executions. We’ll use the asynchronous version of those methods.
- - About Extension Methods
- - Dapper extends the IDbConnection interface with these multiple methods:
+ # About Extension Methods
+  Dapper extends the IDbConnection interface with these multiple methods:
 
 - Execute – an extension method that we use to execute a command one or multiple times and return the number of affected rows
 - Query – with this extension method, we can execute a query and map the result
