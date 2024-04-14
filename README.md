@@ -1,5 +1,5 @@
 # DapperASPNetCore
-# This repo contains the source code for the "Using Dapper with ASP.NET Core Web API" 
+ This repo contains the source code for the "Implementing Dapper in ASP.NET Core Web API." 
 # What is Dapper 
  Dapper is a simple object mapper, or a micro-ORM, for .NET that extends the IDbConnection interface. It provides a set of extension methods for querying and executing commands against a database in a performant manner. Unlike some ORMs, Dapper doesn't attempt to translate your .NET queries into SQL. Instead, you write SQL statements directly, just as you would with SQL Server. This direct approach not only boosts performance but also ensures SQL injection safety when used with parameterized queries – a best practice that Dapper encourages.
  
