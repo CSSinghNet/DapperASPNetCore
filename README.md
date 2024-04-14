@@ -14,6 +14,7 @@
 - QuerySingle – an extension method that executes a query and maps the result.  It throws an exception if there is not exactly one element in the sequence
 - QuerySingleOrDefault – executes a query and maps the result or a default value if the sequence is empty. It throws an exception if there is more than one element in the sequence.
 -  QueryMultiple – an extension method that executes multiple queries within the same command and maps results
+  
 Dapper provides an async version for all these methods (ExecuteAsync, QueryAsync, QueryFirstAsync, QueryFirstOrDefaultAsync, QuerySingleAsync, QuerySingleOrDefaultAsync, QueryMultipleAsync).
 
 we can install two required packages :-
