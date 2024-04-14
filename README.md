@@ -20,7 +20,7 @@ we can install two required packages :-
 - Dapper – PM> Install-Package Dapper
 - SQL Client – PM> Install-Package Microsoft.Data.SqlClient
 
-- When to Choose Dapper or Entity Framework
+When to Choose Dapper or Entity Framework
 # Choose Dapper When
 - Performance is a top priority, especially for read-heavy applications.
 - You need direct control over the SQL queries.
